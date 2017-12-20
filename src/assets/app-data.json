@@ -1,0 +1,75 @@
+{
+    "app": {
+        "name": "Alain",
+        "description": "Ng-zorro admin panel front-end framework"
+    },
+    "user": {
+        "name": "Admin",
+        "avatar": "./assets/img/zorro.svg",
+        "email": "cipchk@qq.com"
+    },
+    "menu": [{
+        "text": "主导航",
+        "translate": "科研项目",
+        "group": true,
+        "children": [{
+            "text": "项目申报",
+            "translate": "项目申报",
+            "link": "/declare",
+            "icon": "icon-speedometer"
+        }, {
+            "text": "项目立项",
+            "translate": "项目立项",
+            "link": "/approval",
+            "icon": "icon-grid"
+        }, {
+            "text": "项目验收",
+            "translate": "项目验收",
+            "link": "/accept",
+            "icon": "icon-grid"
+        }]
+    }, {
+        "text": "科研设备",
+        "translate": "科研设备",
+        "group": true,
+        "children": [{
+            "text": "计划管理",
+            "translate": "计划管理",
+            "link": "/elements/buttons",
+            "icon": "icon-chemistry",
+            "acl": "role-a"
+        }, {
+            "text": "采购管理",
+            "translate": "采购管理",
+            "link": "/forms/standard",
+            "icon": "icon-note",
+            "acl": "role-a"
+        }, {
+            "text": "档案管理",
+            "translate": "档案管理",
+            "link": "/charts",
+            "icon": "icon-graph",
+            "acl": "role-a"
+        }]
+    }, {
+        "text": "科研成果",
+        "translate": "科研成果",
+        "group": true,
+        "children": [{
+            "text": "成果评价",
+            "translate": "form",
+            "link": "/pro/form/step-form",
+            "icon": "icon-note"
+        }, {
+            "text": "成果申报",
+            "translate": "成果申报",
+            "link": "/pro/list",
+            "icon": "icon-grid"
+        }, {
+            "text": "奖励情况",
+            "translate": "奖励情况",
+            "link": "/pro/profile",
+            "icon": "icon-book-open"
+        }]
+    }]
+}
